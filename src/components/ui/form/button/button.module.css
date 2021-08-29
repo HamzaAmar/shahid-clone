@@ -1,0 +1,49 @@
+.btn {
+  appearance: none;
+  border: 3px solid transparent;
+  min-width: 6rem;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+/* Variants Styling Section */
+.contained {
+  background-image: linear-gradient(
+    90deg,
+    var(--primary-color),
+    var(--secondary-color)
+  );
+  color: white;
+}
+
+.outline {
+  background-image: linear-gradient(
+    90deg,
+    var(--primary-color),
+    var(--secondary-color)
+  );
+}
+
+/* Size Styling  Section */
+
+.sm {
+  padding: var(--size-xxs);
+}
+.md {
+  padding: var(--size-xs);
+}
+.lg {
+  padding: var(--size-sm);
+}
+
+/* Radius Styling Section */
+
+.rounded {
+  border-radius: 1000rem;
+}
+.full {
+  border-radius: 50%;
+}
+.none {
+  border-radius: 0;
+}
